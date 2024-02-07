@@ -43,7 +43,147 @@ const questions =  [
           { text: "Melbourne", correct: false},
           { text: "Perth", correct: false}
         ]  
-    }
+    },
+
+    //Start of Charles added questions
+
+    {
+        question: "What is the name for the longest day of the year?",
+       answers: [
+          { text: "Summer Solstice", correct: true},
+          { text: "High Summer Day", correct: false},
+          { text: "Super Summer Time", correct: false},
+          { text: "Summer Long-Day", correct: false}
+        ]  
+    },
+    {
+        question: "Nearly all fossils are preserved in what type of rock?",
+       answers: [
+          { text: "Sedimentary", correct: true},
+          { text: "Igneous", correct: false},
+          { text: "Metamorphic", correct: false},
+          { text: "Heavy Metal", correct: false}
+        ]  
+    },
+    {
+        question: "What is an eight-sided shape called?",
+       answers: [
+          { text: "Octagon", correct: true},
+          { text: "Pentagon", correct: false},
+          { text: "Rectangle", correct: false},
+          { text: "Polygon", correct: false}
+        ]  
+    },
+    {
+        question: "What actor plays Ken in the 2023 blockbuster movie 'Barbie?'",
+       answers: [
+          { text: "Ryan Gosling", correct: true},
+          { text: "Ryan Reynolds", correct: false},
+          { text: "Tom Holland", correct: false},
+          { text: "Margot Robbie", correct: false}
+        ]  
+    },
+    {
+        question: "What 1927 film effectively ended the silent movie era by introducing synchronized talking and singing?", //Charles Q 5
+       answers: [
+          { text: "The Jazz Singer", correct: true},
+          { text: "Citizen Kane", correct: false},
+          { text: "The Maltese Falcon", correct: false},
+          { text: "All Quiet on the Western Front", correct: false}
+        ]  
+    },
+    {
+        question: "The unicorn is the national animal of which country?",
+       answers: [
+          { text: "Scotland", correct: true},
+          { text: "Iceland", correct: false},
+          { text: "Iran", correct: false},
+          { text: "South Korea", correct: false}
+        ]  
+    },
+    {
+        question: "'There's a snake in my boot!' is famously spoken by Woody, a cowboy doll, in which film series?",
+       answers: [
+          { text: "Toy Story", correct: true},
+          { text: "The Avengers", correct: false},
+          { text: "Despicable Me", correct: false},
+          { text: "Spy Kids", correct: false}
+        ]  
+    },    
+    {
+        question: "Which soft drink once contained cocaine as one of its original ingredients?",
+       answers: [
+          { text: "Coca-Cola", correct: true},
+          { text: "Sprite", correct: false},
+          { text: "Irn Bru", correct: false},
+          { text: "Dr Pepper", correct: false}
+        ]  
+    },
+    {
+        question: "What fish is capable of generating an electrical discharge up to 600 volts?",
+       answers: [
+          { text: "The Electric Eel", correct: true},
+          { text: "The Sparky Shark", correct: false},
+          { text: "The Wattage Whale", correct: false},
+          { text: "The Ohm Octopus", correct: false}
+        ]  
+    },
+    {
+        question: "Bill Gates co-founded Microsoft with which of his childhood friends?",  //Charles Qu 10
+       answers: [
+          { text: "Paul Allen", correct: true},
+          { text: "Patrick Bateman", correct: false},
+          { text: "Timothy Bryce", correct: false},
+          { text: "David Van Patten", correct: false}
+        ]  
+    },
+    {
+        question: "'The Da Vinci Code' opens with a murder in which famous museum?",
+       answers: [
+          { text: "The Louvre", correct: true},
+          { text: "The Tate Modern", correct: false},
+          { text: "The Metropolitan Museum of Art", correct: false},
+          { text: "The Rijksmuseum", correct: false}
+        ]  
+    },
+    {
+        question: "What 1949 science fiction book by author George Orwell describes a dystopian world in the future?",
+       answers: [
+          { text: "1984", correct: true},
+          { text: "Brave New World", correct: false},
+          { text: "Foundation", correct: false},
+          { text: "The Spooky Future", correct: false}
+        ]  
+    },
+    {
+        question: "'Call me Ishmael' is the first line from what classic novel?",
+       answers: [
+          { text: "Moby Dick", correct: true},
+          { text: "20,000 Leagues Under The Sea", correct: false},
+          { text: "Around the World in 80 Days", correct: false},
+          { text: "The Spooky Future Part 2", correct: false}
+        ]  
+    },
+    {
+        question: "On July 20, 1969 the first humans walked on the Moon, what is the name of the first person to set foot on the lunar surface?",
+       answers: [
+          { text: "Neil Armstrong", correct: true},
+          { text: "Buzz Aldrin", correct: false},
+          { text: "Michael Collins", correct: false},
+          { text: "Buzz Lightyear", correct: false}
+        ]  
+    },
+    {
+        question: "Who was the astronaut that stayed behind while his crewmates walked on the Moon?", //Charles Q 15
+       answers: [
+          { text: "Michael Collins", correct: true},
+          { text: "Buzz Aldrin", correct: false},
+          { text: "Neil Armstrong", correct: false},
+          { text: "Buzz Lightyear", correct: false}
+        ]  
+    },
+
+    
     // Add more questions as needed
 ];
 
