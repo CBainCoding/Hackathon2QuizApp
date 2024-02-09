@@ -260,10 +260,8 @@ function selectAnswer(e) {
   if (isCorrect) {
       selectedBtn.classList.add("correct");
       score++;
-      document.body.style.backgroundColor = "green";
   } else {
       selectedBtn.classList.add("incorrect");
-      document.body.style.backgroundColor = "red";
   }
   Array.from(answerButton.children).forEach(button => {
       if (button.dataset.correct === "true") {
@@ -276,7 +274,6 @@ function selectAnswer(e) {
 }
 
   nextButton.addEventListener('click', function () {
-  document.body.style.backgroundColor = "blue";
   });
 
 
